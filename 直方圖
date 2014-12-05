@@ -1,0 +1,7 @@
+## 直方圖
+
+x <- rnorm(100)
+plot(x)
+## hist(x)
+hist(x, col="green", probability=TRUE)
+lines(density(x), lwd=3, col="red")
